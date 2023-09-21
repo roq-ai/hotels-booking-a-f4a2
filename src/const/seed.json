@@ -1,0 +1,2472 @@
+[
+  {
+    "hotel": [
+      {
+        "id": "df00f996-0284-4ca9-b5f3-0cabfe602141",
+        "name": "Grand Hotel",
+        "address": "789 Main Street",
+        "city": "New York",
+        "country": "United States",
+        "created_at": "2023-09-21T01:55:35.167Z",
+        "updated_at": "2023-09-20T11:07:07.311Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "7ef39640-46ae-44d0-ba55-8084c82a01d9",
+        "name": "Sunset Inn",
+        "address": "456 Elm Avenue",
+        "city": "Los Angeles",
+        "country": "Canada",
+        "created_at": "2023-09-20T23:00:40.585Z",
+        "updated_at": "2023-09-20T07:48:57.480Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "d5c8595d-198f-413e-afc0-9e9ddf073c72",
+        "name": "Mountain View Lodge",
+        "address": "123 Oak Lane",
+        "city": "Chicago",
+        "country": "United Kingdom",
+        "created_at": "2023-09-20T19:38:25.887Z",
+        "updated_at": "2023-09-21T00:35:59.825Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "038f834c-5c48-4f49-bf73-f00c887ee496",
+        "name": "Seaside Resort",
+        "address": "321 Pine Road",
+        "city": "Houston",
+        "country": "Australia",
+        "created_at": "2023-09-21T04:40:16.840Z",
+        "updated_at": "2023-09-20T21:36:57.886Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "fee2d53d-c025-4605-9b1c-253ebfe71483",
+        "name": "The Oasis",
+        "address": "654 Maple Drive",
+        "city": "Miami",
+        "country": "France",
+        "created_at": "2023-09-20T05:12:07.206Z",
+        "updated_at": "2023-09-20T07:49:38.202Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "room": [
+      {
+        "id": "faa80baf-4e2e-4f76-8914-cea39ecbaa3c",
+        "room_number": 68755,
+        "room_type": "Standard",
+        "price": 12549,
+        "created_at": "2023-09-21T00:00:05.147Z",
+        "updated_at": "2023-09-20T09:05:06.225Z",
+        "hotel_id": "df00f996-0284-4ca9-b5f3-0cabfe602141"
+      },
+      {
+        "id": "b3025584-24ef-4e87-a0ed-b1c0cc7e3e0e",
+        "room_number": 8999,
+        "room_type": "Deluxe",
+        "price": 84350,
+        "created_at": "2023-09-20T15:06:54.579Z",
+        "updated_at": "2023-09-20T05:51:48.437Z",
+        "hotel_id": "7ef39640-46ae-44d0-ba55-8084c82a01d9"
+      },
+      {
+        "id": "1828c522-54f0-4012-bf98-2d01021c22dd",
+        "room_number": 67797,
+        "room_type": "Executive",
+        "price": 1317,
+        "created_at": "2023-09-20T19:50:15.130Z",
+        "updated_at": "2023-09-20T15:59:24.305Z",
+        "hotel_id": "038f834c-5c48-4f49-bf73-f00c887ee496"
+      },
+      {
+        "id": "a55b40f0-2a61-41ac-a967-3c359d0d3b2e",
+        "room_number": 8042,
+        "room_type": "Suite",
+        "price": 34830,
+        "created_at": "2023-09-21T01:29:30.066Z",
+        "updated_at": "2023-09-20T08:27:50.894Z",
+        "hotel_id": "fee2d53d-c025-4605-9b1c-253ebfe71483"
+      },
+      {
+        "id": "57c4e79b-98c7-43ce-9c0d-5d6d37cf3c81",
+        "room_number": 38011,
+        "room_type": "Penthouse",
+        "price": 20466,
+        "created_at": "2023-09-21T04:18:04.864Z",
+        "updated_at": "2023-09-21T00:40:52.672Z",
+        "hotel_id": "d5c8595d-198f-413e-afc0-9e9ddf073c72"
+      }
+    ],
+    "review": [
+      {
+        "id": "49fb0602-8621-4e39-931a-5f43c8cf362f",
+        "rating": 14154,
+        "comment": "Great experience! Highly recommended.",
+        "created_at": "2023-09-20T22:13:13.060Z",
+        "updated_at": "2023-09-20T19:12:00.366Z",
+        "hotel_id": "7ef39640-46ae-44d0-ba55-8084c82a01d9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1347bb78-534c-48ed-8564-127ae54a50f0",
+        "rating": 77853,
+        "comment": "Average stay, nothing special.",
+        "created_at": "2023-09-20T23:43:39.894Z",
+        "updated_at": "2023-09-20T23:03:56.113Z",
+        "hotel_id": "df00f996-0284-4ca9-b5f3-0cabfe602141",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9fccd660-cd25-4ee3-a5c3-2a126ccceb7f",
+        "rating": 92878,
+        "comment": "Poor service and outdated facilities.",
+        "created_at": "2023-09-20T17:31:35.711Z",
+        "updated_at": "2023-09-20T16:17:28.681Z",
+        "hotel_id": "7ef39640-46ae-44d0-ba55-8084c82a01d9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e72fd417-6d88-489e-9054-83aeee3219de",
+        "rating": 74663,
+        "comment": "Amazing views and friendly staff.",
+        "created_at": "2023-09-21T02:18:33.168Z",
+        "updated_at": "2023-09-20T16:47:41.583Z",
+        "hotel_id": "038f834c-5c48-4f49-bf73-f00c887ee496",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24bbcbd2-b5a3-43c1-8693-d8cff37e5b82",
+        "rating": 88468,
+        "comment": "Comfortable rooms and excellent amenities.",
+        "created_at": "2023-09-20T10:18:15.643Z",
+        "updated_at": "2023-09-20T19:51:53.986Z",
+        "hotel_id": "d5c8595d-198f-413e-afc0-9e9ddf073c72",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "2c831b46-ae60-4db5-b032-816f1bfa8232",
+        "start_date": "2023-09-20T12:12:49.287Z",
+        "end_date": "2023-09-20T15:09:46.430Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-20T12:17:06.682Z",
+        "updated_at": "2023-09-20T05:59:20.270Z",
+        "room_id": "faa80baf-4e2e-4f76-8914-cea39ecbaa3c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c4123c2-a0d6-410a-bb09-53090c7d3c00",
+        "start_date": "2023-09-20T07:32:01.737Z",
+        "end_date": "2023-09-21T02:14:11.325Z",
+        "status": "Pending",
+        "created_at": "2023-09-20T08:22:35.067Z",
+        "updated_at": "2023-09-20T20:45:30.216Z",
+        "room_id": "57c4e79b-98c7-43ce-9c0d-5d6d37cf3c81",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "154d62ed-d442-4d5d-b213-a1f1d15ff031",
+        "start_date": "2023-09-20T05:24:53.850Z",
+        "end_date": "2023-09-20T23:55:54.275Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T21:36:35.976Z",
+        "updated_at": "2023-09-20T19:00:28.958Z",
+        "room_id": "a55b40f0-2a61-41ac-a967-3c359d0d3b2e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "11c36356-3591-47b6-8994-ea00300b5e07",
+        "start_date": "2023-09-20T05:42:00.212Z",
+        "end_date": "2023-09-20T22:49:54.142Z",
+        "status": "Completed",
+        "created_at": "2023-09-21T03:52:45.276Z",
+        "updated_at": "2023-09-20T09:56:33.972Z",
+        "room_id": "a55b40f0-2a61-41ac-a967-3c359d0d3b2e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5202940e-ba56-4430-8945-469156e287ff",
+        "start_date": "2023-09-20T15:32:40.892Z",
+        "end_date": "2023-09-20T22:22:46.835Z",
+        "status": "No Show",
+        "created_at": "2023-09-20T20:21:19.905Z",
+        "updated_at": "2023-09-20T16:14:50.948Z",
+        "room_id": "1828c522-54f0-4012-bf98-2d01021c22dd",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2a3d8f0a-9e5e-427a-acfb-02dad141ebd5",
+        "email": "Dane17@hotmail.com",
+        "firstName": "Isac",
+        "lastName": "Macejkovic",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/331.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a62a85d4-0dd0-4385-86b3-77756d51f0e5",
+        "email": "Lorena_Dicki37@yahoo.com",
+        "firstName": "Erik",
+        "lastName": "Smith",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49219769",
+        "tenantId": null
+      },
+      {
+        "reference": "8ec650cc-d805-44b6-af5f-0fe163b895a8",
+        "email": "Devon_Kuhic@gmail.com",
+        "firstName": "Hollis",
+        "lastName": "Heathcote",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88496177",
+        "tenantId": null
+      },
+      {
+        "reference": "490e9481-81f7-4f71-88fd-9fffd90df652",
+        "email": "Ronny_OConnell83@gmail.com",
+        "firstName": "Cornell",
+        "lastName": "Balistreri",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16538335",
+        "tenantId": null
+      },
+      {
+        "reference": "f0cd106b-d6dc-46cf-8893-c356b38e5b2e",
+        "email": "Lewis_Effertz75@hotmail.com",
+        "firstName": "Iliana",
+        "lastName": "Bernier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23078917",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "hotel": [
+      {
+        "id": "280face2-97ff-4671-9654-bf51b32c1439",
+        "name": "Hotel ABC",
+        "address": "123 Main Street",
+        "city": "New York",
+        "country": "United States",
+        "created_at": "2023-09-20T08:48:30.562Z",
+        "updated_at": "2023-09-20T20:31:31.139Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "2507596b-dc08-4461-a183-c45ba9deebf4",
+        "name": "XYZ Resort",
+        "address": "456 Elm Street",
+        "city": "Los Angeles",
+        "country": "Canada",
+        "created_at": "2023-09-21T00:05:26.125Z",
+        "updated_at": "2023-09-20T19:13:26.781Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "b9b8e74f-eb65-43b4-b131-8fa2d7f3a945",
+        "name": "City View Hotel",
+        "address": "789 Oak Street",
+        "city": "Chicago",
+        "country": "United Kingdom",
+        "created_at": "2023-09-20T15:04:17.187Z",
+        "updated_at": "2023-09-21T02:28:25.259Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "66760db8-f3c6-4851-b9f8-38789ffa5f11",
+        "name": "Sunset Inn",
+        "address": "321 Maple Street",
+        "city": "Houston",
+        "country": "Australia",
+        "created_at": "2023-09-21T00:31:13.596Z",
+        "updated_at": "2023-09-20T11:15:54.522Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "6b835a7a-58ee-431d-b463-f05c1df0defa",
+        "name": "Mountain Retreat",
+        "address": "654 Pine Street",
+        "city": "Miami",
+        "country": "France",
+        "created_at": "2023-09-20T10:22:07.014Z",
+        "updated_at": "2023-09-20T08:18:31.627Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "room": [
+      {
+        "id": "b7d8479d-2a4a-477c-b0fe-2e11f94e4ae3",
+        "room_number": 54680,
+        "room_type": "Single",
+        "price": 15424,
+        "created_at": "2023-09-20T20:40:28.645Z",
+        "updated_at": "2023-09-20T18:54:32.940Z",
+        "hotel_id": "280face2-97ff-4671-9654-bf51b32c1439"
+      },
+      {
+        "id": "6f5e6606-1f39-4052-8c58-462d703acc96",
+        "room_number": 36461,
+        "room_type": "Double",
+        "price": 23870,
+        "created_at": "2023-09-20T21:38:01.106Z",
+        "updated_at": "2023-09-21T04:20:38.185Z",
+        "hotel_id": "280face2-97ff-4671-9654-bf51b32c1439"
+      },
+      {
+        "id": "9b6a2aba-04d5-4165-81fe-b56bf13c51e9",
+        "room_number": 8554,
+        "room_type": "Deluxe",
+        "price": 41055,
+        "created_at": "2023-09-21T03:56:50.615Z",
+        "updated_at": "2023-09-20T05:30:50.499Z",
+        "hotel_id": "b9b8e74f-eb65-43b4-b131-8fa2d7f3a945"
+      },
+      {
+        "id": "d097baa8-3723-415f-a020-2a907a679104",
+        "room_number": 55041,
+        "room_type": "Suite",
+        "price": 33390,
+        "created_at": "2023-09-20T16:09:39.692Z",
+        "updated_at": "2023-09-21T03:51:51.771Z",
+        "hotel_id": "2507596b-dc08-4461-a183-c45ba9deebf4"
+      },
+      {
+        "id": "ffa1753c-6069-4775-9cf5-4cb10142f44c",
+        "room_number": 62302,
+        "room_type": "Family",
+        "price": 39024,
+        "created_at": "2023-09-20T18:06:22.410Z",
+        "updated_at": "2023-09-20T10:31:21.928Z",
+        "hotel_id": "66760db8-f3c6-4851-b9f8-38789ffa5f11"
+      }
+    ],
+    "review": [
+      {
+        "id": "7f6f9ebe-1ead-4085-bfdc-b362f2452a7b",
+        "rating": 81264,
+        "comment": "Great hotel with excellent service",
+        "created_at": "2023-09-20T05:26:54.655Z",
+        "updated_at": "2023-09-20T15:02:08.922Z",
+        "hotel_id": "6b835a7a-58ee-431d-b463-f05c1df0defa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15a1fdcc-d902-455b-937c-972b7e7253a6",
+        "rating": 83093,
+        "comment": "Lovely stay, highly recommended",
+        "created_at": "2023-09-20T16:38:24.198Z",
+        "updated_at": "2023-09-20T09:56:19.322Z",
+        "hotel_id": "b9b8e74f-eb65-43b4-b131-8fa2d7f3a945",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "01d3395f-2dd9-417e-82c5-b6d2422b7b4b",
+        "rating": 86970,
+        "comment": "Amazing experience, will definitely come back",
+        "created_at": "2023-09-21T04:52:53.804Z",
+        "updated_at": "2023-09-20T21:55:00.616Z",
+        "hotel_id": "280face2-97ff-4671-9654-bf51b32c1439",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f28e5ae-3f60-4b8b-90ba-1c7511fdfee0",
+        "rating": 63455,
+        "comment": "Friendly staff and comfortable rooms",
+        "created_at": "2023-09-21T00:15:25.218Z",
+        "updated_at": "2023-09-20T13:17:57.824Z",
+        "hotel_id": "b9b8e74f-eb65-43b4-b131-8fa2d7f3a945",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "75544197-f055-4fd3-a6e1-31c2797e6444",
+        "rating": 48331,
+        "comment": "Perfect location for exploring the city",
+        "created_at": "2023-09-21T04:54:43.366Z",
+        "updated_at": "2023-09-21T04:14:45.950Z",
+        "hotel_id": "b9b8e74f-eb65-43b4-b131-8fa2d7f3a945",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "945201cb-27d8-4f74-b8a6-6464b1d65b83",
+        "start_date": "2023-09-20T06:51:37.951Z",
+        "end_date": "2023-09-20T12:10:10.267Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-20T08:10:10.711Z",
+        "updated_at": "2023-09-20T15:45:45.432Z",
+        "room_id": "ffa1753c-6069-4775-9cf5-4cb10142f44c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c9a6733-39f3-4ba5-8f44-896d3e8bafa9",
+        "start_date": "2023-09-20T13:32:01.765Z",
+        "end_date": "2023-09-20T14:45:18.572Z",
+        "status": "Pending",
+        "created_at": "2023-09-21T00:55:05.864Z",
+        "updated_at": "2023-09-20T22:26:43.685Z",
+        "room_id": "d097baa8-3723-415f-a020-2a907a679104",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d6fe6fa0-11b8-4515-a5eb-91a35838445d",
+        "start_date": "2023-09-20T14:33:05.242Z",
+        "end_date": "2023-09-20T16:31:13.790Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T08:41:28.465Z",
+        "updated_at": "2023-09-20T22:12:01.597Z",
+        "room_id": "9b6a2aba-04d5-4165-81fe-b56bf13c51e9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89f3827b-ead6-4402-929b-e97650f0747f",
+        "start_date": "2023-09-20T09:06:23.313Z",
+        "end_date": "2023-09-20T21:04:45.183Z",
+        "status": "Completed",
+        "created_at": "2023-09-21T03:57:14.044Z",
+        "updated_at": "2023-09-20T17:50:42.312Z",
+        "room_id": "6f5e6606-1f39-4052-8c58-462d703acc96",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3340ac5c-091a-430f-982b-949e591ff59e",
+        "start_date": "2023-09-20T12:31:28.429Z",
+        "end_date": "2023-09-21T02:39:48.334Z",
+        "status": "On Hold",
+        "created_at": "2023-09-20T08:56:08.846Z",
+        "updated_at": "2023-09-21T03:53:33.782Z",
+        "room_id": "6f5e6606-1f39-4052-8c58-462d703acc96",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2d48fb23-6f29-4703-9495-319ad3227ef7",
+        "email": "Suzanne_Fritsch18@gmail.com",
+        "firstName": "Noe",
+        "lastName": "Larson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75664862",
+        "tenantId": null
+      },
+      {
+        "reference": "e74918ee-5a42-49a5-8562-0957b27657ed",
+        "email": "Markus_Hand74@yahoo.com",
+        "firstName": "Winifred",
+        "lastName": "Mills",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/290.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f09e79d5-8a42-438a-b2bf-5041486b9bfe",
+        "email": "Tina_Kautzer8@gmail.com",
+        "firstName": "Kassandra",
+        "lastName": "Bayer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/681.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1825776b-1735-460f-96ed-7bea1e39faf0",
+        "email": "Bart75@hotmail.com",
+        "firstName": "Susan",
+        "lastName": "Windler-Crist",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94559180",
+        "tenantId": null
+      },
+      {
+        "reference": "8f370633-5837-4d20-8a68-d82a14357c9f",
+        "email": "Aubree66@gmail.com",
+        "firstName": "Serenity",
+        "lastName": "Gorczany",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1112.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "hotel": [
+      {
+        "id": "879bbf0f-cc26-42ce-97c0-54af8c08dca7",
+        "name": "Grand Hotel",
+        "address": "111 Main Street",
+        "city": "New York",
+        "country": "United States",
+        "created_at": "2023-09-20T23:42:42.148Z",
+        "updated_at": "2023-09-20T13:21:17.267Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "fecad340-ed87-4515-8232-145ef8fdb2b8",
+        "name": "Royal Palace",
+        "address": "222 Elm Avenue",
+        "city": "Los Angeles",
+        "country": "Canada",
+        "created_at": "2023-09-21T02:57:22.812Z",
+        "updated_at": "2023-09-20T11:49:32.591Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "d528d9be-ec52-4d68-bf8a-b6b3ba78218b",
+        "name": "Sunset View",
+        "address": "333 Oak Drive",
+        "city": "Chicago",
+        "country": "United Kingdom",
+        "created_at": "2023-09-20T19:31:58.999Z",
+        "updated_at": "2023-09-20T23:43:21.006Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "28f589a7-6716-4a9b-9455-3e873cf6fb96",
+        "name": "Mountain Retreat",
+        "address": "444 Pine Lane",
+        "city": "Houston",
+        "country": "Australia",
+        "created_at": "2023-09-20T07:39:45.589Z",
+        "updated_at": "2023-09-20T06:10:16.142Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "c9bfebba-3c2b-41a1-a61f-e313b0e8fb4a",
+        "name": "Seaside Oasis",
+        "address": "555 Maple Road",
+        "city": "Miami",
+        "country": "France",
+        "created_at": "2023-09-20T12:21:27.661Z",
+        "updated_at": "2023-09-20T06:05:37.108Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "room": [
+      {
+        "id": "bdfa5f10-c9d4-4c9d-9876-06747db65d41",
+        "room_number": 6016,
+        "room_type": "Single",
+        "price": 27526,
+        "created_at": "2023-09-20T22:53:59.523Z",
+        "updated_at": "2023-09-20T12:07:04.568Z",
+        "hotel_id": "879bbf0f-cc26-42ce-97c0-54af8c08dca7"
+      },
+      {
+        "id": "4430a808-a44c-4fc9-a48e-62e311bcdf2b",
+        "room_number": 4636,
+        "room_type": "Double",
+        "price": 92254,
+        "created_at": "2023-09-20T09:21:57.981Z",
+        "updated_at": "2023-09-21T01:16:36.506Z",
+        "hotel_id": "fecad340-ed87-4515-8232-145ef8fdb2b8"
+      },
+      {
+        "id": "8fafb732-ee3b-4725-a88f-741ecb4af438",
+        "room_number": 80484,
+        "room_type": "Twin",
+        "price": 10979,
+        "created_at": "2023-09-20T19:43:27.464Z",
+        "updated_at": "2023-09-20T23:52:11.251Z",
+        "hotel_id": "c9bfebba-3c2b-41a1-a61f-e313b0e8fb4a"
+      },
+      {
+        "id": "c732e4de-6455-4b01-ba50-45f67eae9287",
+        "room_number": 91478,
+        "room_type": "Suite",
+        "price": 41327,
+        "created_at": "2023-09-20T21:33:25.447Z",
+        "updated_at": "2023-09-21T02:22:09.749Z",
+        "hotel_id": "fecad340-ed87-4515-8232-145ef8fdb2b8"
+      },
+      {
+        "id": "644f86e1-8ae7-43be-825c-9546cad022bd",
+        "room_number": 56892,
+        "room_type": "Deluxe",
+        "price": 54004,
+        "created_at": "2023-09-20T18:39:37.249Z",
+        "updated_at": "2023-09-20T18:11:49.813Z",
+        "hotel_id": "d528d9be-ec52-4d68-bf8a-b6b3ba78218b"
+      }
+    ],
+    "review": [
+      {
+        "id": "ca10e86e-9fef-4950-b34e-140ad5880fa2",
+        "rating": 29773,
+        "comment": "Great hotel with excellent service",
+        "created_at": "2023-09-20T11:13:12.054Z",
+        "updated_at": "2023-09-20T14:36:07.616Z",
+        "hotel_id": "c9bfebba-3c2b-41a1-a61f-e313b0e8fb4a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f4435270-3e6a-4635-991e-f5d076bc1529",
+        "rating": 32434,
+        "comment": "Beautiful location and friendly staff",
+        "created_at": "2023-09-20T20:06:31.499Z",
+        "updated_at": "2023-09-21T04:52:30.144Z",
+        "hotel_id": "c9bfebba-3c2b-41a1-a61f-e313b0e8fb4a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9e7cc60-9c23-49fb-84b4-999693fdd3d2",
+        "rating": 57312,
+        "comment": "Clean and comfortable rooms",
+        "created_at": "2023-09-20T19:39:42.570Z",
+        "updated_at": "2023-09-20T18:29:06.941Z",
+        "hotel_id": "fecad340-ed87-4515-8232-145ef8fdb2b8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67b9470f-6eb8-4df3-b573-8c7b3774bd82",
+        "rating": 52572,
+        "comment": "Highly recommended for a relaxing stay",
+        "created_at": "2023-09-20T07:22:25.756Z",
+        "updated_at": "2023-09-20T09:52:30.326Z",
+        "hotel_id": "d528d9be-ec52-4d68-bf8a-b6b3ba78218b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d91f1863-e2ef-4315-9c98-c80b18d0a5b2",
+        "rating": 75799,
+        "comment": "Couldn't have asked for a better experience",
+        "created_at": "2023-09-21T02:08:02.668Z",
+        "updated_at": "2023-09-20T15:33:52.689Z",
+        "hotel_id": "c9bfebba-3c2b-41a1-a61f-e313b0e8fb4a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "ad22850a-27c2-4b3d-83af-ac8907265538",
+        "start_date": "2023-09-20T11:19:05.404Z",
+        "end_date": "2023-09-21T02:23:58.267Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-20T12:06:19.042Z",
+        "updated_at": "2023-09-21T01:45:25.232Z",
+        "room_id": "644f86e1-8ae7-43be-825c-9546cad022bd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca5ce752-c20a-45b7-8c51-a4e0c26f4435",
+        "start_date": "2023-09-20T15:25:04.246Z",
+        "end_date": "2023-09-21T03:35:18.441Z",
+        "status": "Pending",
+        "created_at": "2023-09-20T20:55:42.743Z",
+        "updated_at": "2023-09-20T21:46:40.055Z",
+        "room_id": "c732e4de-6455-4b01-ba50-45f67eae9287",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d54699a6-3fbe-4195-acf3-265d6a26e48b",
+        "start_date": "2023-09-20T16:35:44.148Z",
+        "end_date": "2023-09-20T09:13:00.143Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T21:46:55.513Z",
+        "updated_at": "2023-09-20T17:46:43.697Z",
+        "room_id": "c732e4de-6455-4b01-ba50-45f67eae9287",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "58380d3e-9407-4ad7-b510-7776ed2b04e1",
+        "start_date": "2023-09-20T17:58:11.616Z",
+        "end_date": "2023-09-20T17:49:46.711Z",
+        "status": "Completed",
+        "created_at": "2023-09-20T14:11:17.209Z",
+        "updated_at": "2023-09-20T21:30:06.794Z",
+        "room_id": "c732e4de-6455-4b01-ba50-45f67eae9287",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8c2ab34b-407f-446b-a973-454563349995",
+        "start_date": "2023-09-20T05:57:03.079Z",
+        "end_date": "2023-09-20T20:50:26.620Z",
+        "status": "On Hold",
+        "created_at": "2023-09-20T22:37:07.874Z",
+        "updated_at": "2023-09-20T16:41:00.759Z",
+        "room_id": "4430a808-a44c-4fc9-a48e-62e311bcdf2b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "aa51f65d-bcfa-45bb-8f47-f50e70682898",
+        "email": "Rickey_Abshire@gmail.com",
+        "firstName": "Keeley",
+        "lastName": "McCullough-Mitchell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66274970",
+        "tenantId": null
+      },
+      {
+        "reference": "2c29de23-2d98-4eab-af87-44c362fbad5f",
+        "email": "Mara_Leffler52@hotmail.com",
+        "firstName": "Annamarie",
+        "lastName": "Mueller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44600371",
+        "tenantId": null
+      },
+      {
+        "reference": "62d13f6d-018a-4d7d-a6a5-0062cb159e10",
+        "email": "Garland71@hotmail.com",
+        "firstName": "Noemy",
+        "lastName": "Murazik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95327922",
+        "tenantId": null
+      },
+      {
+        "reference": "d9908888-5a73-476b-a49f-0e75c964fd21",
+        "email": "Anahi.Barrows77@hotmail.com",
+        "firstName": "Vilma",
+        "lastName": "Hudson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93622947",
+        "tenantId": null
+      },
+      {
+        "reference": "180b2277-b0ec-46be-9a18-3da3bba26a3f",
+        "email": "Braeden.Reynolds@yahoo.com",
+        "firstName": "Juston",
+        "lastName": "Rowe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/50.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "hotel": [
+      {
+        "id": "a1f9cd0f-21a8-4184-a30b-160413a1b94f",
+        "name": "Grand Hotel",
+        "address": "789 Main Street",
+        "city": "New York",
+        "country": "United States",
+        "created_at": "2023-09-20T19:38:35.966Z",
+        "updated_at": "2023-09-21T00:56:37.860Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "c127082c-dea2-4ebe-861b-4e0428c7ae55",
+        "name": "Mountain View Inn",
+        "address": "456 Elm Avenue",
+        "city": "Los Angeles",
+        "country": "Canada",
+        "created_at": "2023-09-20T06:36:00.899Z",
+        "updated_at": "2023-09-20T07:56:41.440Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "1f1a64b6-2d9d-4f6f-a4de-7f4104c3dd3d",
+        "name": "Seaside Resort",
+        "address": "123 Oak Lane",
+        "city": "Chicago",
+        "country": "United Kingdom",
+        "created_at": "2023-09-20T11:27:00.193Z",
+        "updated_at": "2023-09-20T11:55:59.082Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "5be3a904-29c1-439f-a4bb-ba013b12c33b",
+        "name": "City Center Hotel",
+        "address": "321 Maple Drive",
+        "city": "Houston",
+        "country": "Australia",
+        "created_at": "2023-09-20T05:19:24.785Z",
+        "updated_at": "2023-09-20T17:22:10.575Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "9cf2726f-6d4b-423d-9e2c-083c3be3be10",
+        "name": "Country Retreat",
+        "address": "654 Pine Road",
+        "city": "Miami",
+        "country": "Germany",
+        "created_at": "2023-09-20T09:49:27.753Z",
+        "updated_at": "2023-09-20T06:37:22.896Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "room": [
+      {
+        "id": "4d7168a3-6942-4153-a1c1-350d415bbc96",
+        "room_number": 39973,
+        "room_type": "Standard",
+        "price": 75204,
+        "created_at": "2023-09-20T05:20:39.839Z",
+        "updated_at": "2023-09-20T14:22:49.535Z",
+        "hotel_id": "c127082c-dea2-4ebe-861b-4e0428c7ae55"
+      },
+      {
+        "id": "91f90887-80af-4287-b770-89a46cb29d3f",
+        "room_number": 42470,
+        "room_type": "Deluxe",
+        "price": 86862,
+        "created_at": "2023-09-21T04:51:56.897Z",
+        "updated_at": "2023-09-20T19:22:04.012Z",
+        "hotel_id": "1f1a64b6-2d9d-4f6f-a4de-7f4104c3dd3d"
+      },
+      {
+        "id": "55b928ac-86cc-4bdb-bdc8-38ac29c1901e",
+        "room_number": 38416,
+        "room_type": "Suite",
+        "price": 61576,
+        "created_at": "2023-09-21T01:44:40.200Z",
+        "updated_at": "2023-09-20T06:14:07.142Z",
+        "hotel_id": "9cf2726f-6d4b-423d-9e2c-083c3be3be10"
+      },
+      {
+        "id": "f970810b-3048-4d9a-b0fc-15ac6df4d377",
+        "room_number": 99212,
+        "room_type": "Executive",
+        "price": 74384,
+        "created_at": "2023-09-20T13:22:53.802Z",
+        "updated_at": "2023-09-20T15:10:03.421Z",
+        "hotel_id": "1f1a64b6-2d9d-4f6f-a4de-7f4104c3dd3d"
+      },
+      {
+        "id": "2f82b22e-eea1-4040-acd9-963f7e8cfb81",
+        "room_number": 28178,
+        "room_type": "Penthouse",
+        "price": 52779,
+        "created_at": "2023-09-20T07:42:04.401Z",
+        "updated_at": "2023-09-21T02:39:41.060Z",
+        "hotel_id": "1f1a64b6-2d9d-4f6f-a4de-7f4104c3dd3d"
+      }
+    ],
+    "review": [
+      {
+        "id": "d7b11f87-0944-4eff-9ce1-021e25fa269f",
+        "rating": 87709,
+        "comment": "Great experience! Highly recommended.",
+        "created_at": "2023-09-20T16:54:46.325Z",
+        "updated_at": "2023-09-20T21:52:33.780Z",
+        "hotel_id": "5be3a904-29c1-439f-a4bb-ba013b12c33b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee76e1bf-e4e0-4e3d-84b0-05ad14cf4b5d",
+        "rating": 62486,
+        "comment": "Lovely stay with excellent service.",
+        "created_at": "2023-09-21T02:44:49.194Z",
+        "updated_at": "2023-09-20T08:33:56.797Z",
+        "hotel_id": "9cf2726f-6d4b-423d-9e2c-083c3be3be10",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c6574963-a486-4091-bd8d-38962205eebc",
+        "rating": 8865,
+        "comment": "Disappointing. Room was not clean.",
+        "created_at": "2023-09-20T23:14:51.203Z",
+        "updated_at": "2023-09-21T03:19:03.308Z",
+        "hotel_id": "9cf2726f-6d4b-423d-9e2c-083c3be3be10",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "175b8141-efe9-4517-a835-d5c12692fa98",
+        "rating": 70513,
+        "comment": "Amazing views and comfortable beds.",
+        "created_at": "2023-09-20T19:53:26.131Z",
+        "updated_at": "2023-09-20T12:25:27.195Z",
+        "hotel_id": "a1f9cd0f-21a8-4184-a30b-160413a1b94f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d0ee586-9f49-4be3-99bf-0b7d2693fe46",
+        "rating": 82953,
+        "comment": "Poor customer service. Will not stay again.",
+        "created_at": "2023-09-20T05:11:56.045Z",
+        "updated_at": "2023-09-20T07:42:47.820Z",
+        "hotel_id": "c127082c-dea2-4ebe-861b-4e0428c7ae55",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "e077bfb8-a9e9-4836-a23b-d18cfcb4d030",
+        "start_date": "2023-09-20T09:40:43.563Z",
+        "end_date": "2023-09-20T18:27:28.245Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-20T11:19:58.112Z",
+        "updated_at": "2023-09-20T12:09:40.387Z",
+        "room_id": "f970810b-3048-4d9a-b0fc-15ac6df4d377",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e47c6f5-737b-4724-b877-0d33e1a2888a",
+        "start_date": "2023-09-20T21:50:06.257Z",
+        "end_date": "2023-09-21T01:50:47.652Z",
+        "status": "Pending",
+        "created_at": "2023-09-20T18:09:29.520Z",
+        "updated_at": "2023-09-20T23:21:54.014Z",
+        "room_id": "f970810b-3048-4d9a-b0fc-15ac6df4d377",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "615cf8e9-fdd2-4602-98f3-c243e77176bd",
+        "start_date": "2023-09-20T08:36:47.229Z",
+        "end_date": "2023-09-20T11:56:50.429Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T15:29:57.528Z",
+        "updated_at": "2023-09-21T02:25:00.591Z",
+        "room_id": "2f82b22e-eea1-4040-acd9-963f7e8cfb81",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d66ff35-9124-4369-a591-9864af8ec247",
+        "start_date": "2023-09-20T21:21:28.288Z",
+        "end_date": "2023-09-21T00:11:23.212Z",
+        "status": "Completed",
+        "created_at": "2023-09-21T03:07:45.505Z",
+        "updated_at": "2023-09-20T06:03:18.215Z",
+        "room_id": "2f82b22e-eea1-4040-acd9-963f7e8cfb81",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c37aee16-00a9-4b71-b4fb-87277c9665be",
+        "start_date": "2023-09-20T15:14:57.389Z",
+        "end_date": "2023-09-20T19:31:08.754Z",
+        "status": "On Hold",
+        "created_at": "2023-09-20T16:19:20.170Z",
+        "updated_at": "2023-09-21T03:37:15.980Z",
+        "room_id": "55b928ac-86cc-4bdb-bdc8-38ac29c1901e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "36db7780-568b-4c71-acdb-af2140c8a27d",
+        "email": "Stevie.Borer@gmail.com",
+        "firstName": "Kennith",
+        "lastName": "Zieme",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24024627",
+        "tenantId": null
+      },
+      {
+        "reference": "c5837739-aa3a-4850-88c6-214dc46f6a8e",
+        "email": "Bettie.Kuhn@hotmail.com",
+        "firstName": "Ladarius",
+        "lastName": "Carter",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22047498",
+        "tenantId": null
+      },
+      {
+        "reference": "c98bf4f1-cc04-413c-98a9-7d59b6f851d1",
+        "email": "Lynn36@yahoo.com",
+        "firstName": "Verona",
+        "lastName": "Osinski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7198154",
+        "tenantId": null
+      },
+      {
+        "reference": "7d406047-580c-46c7-87b7-fc5e63a629b5",
+        "email": "Yessenia37@yahoo.com",
+        "firstName": "Mattie",
+        "lastName": "Bechtelar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1207.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "51130cb6-7dcc-4e8b-a42a-0525f32b2ede",
+        "email": "Edmond.Howell31@yahoo.com",
+        "firstName": "Friedrich",
+        "lastName": "McDermott",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1122.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "hotel": [
+      {
+        "id": "b9cf08e1-9079-4b74-a2fd-c521f0b837ff",
+        "name": "Grand Plaza Hotel",
+        "address": "111 Main Street",
+        "city": "New York",
+        "country": "United States",
+        "created_at": "2023-09-21T03:28:08.379Z",
+        "updated_at": "2023-09-20T09:36:10.260Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "d045c311-a3c0-4ca3-aa58-a8185f1f5a46",
+        "name": "Ocean View Resort",
+        "address": "222 Elm Avenue",
+        "city": "Los Angeles",
+        "country": "United Kingdom",
+        "created_at": "2023-09-20T16:40:33.755Z",
+        "updated_at": "2023-09-20T12:27:19.165Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "e684433a-4dab-4637-8207-cbf1a09f6202",
+        "name": "City Center Inn",
+        "address": "333 Oak Lane",
+        "city": "London",
+        "country": "France",
+        "created_at": "2023-09-20T13:43:30.287Z",
+        "updated_at": "2023-09-21T00:03:36.430Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "fbb8e998-3a17-48fd-8c62-a22e54d62b1e",
+        "name": "Mountain Top Lodge",
+        "address": "444 Pine Road",
+        "city": "Paris",
+        "country": "Japan",
+        "created_at": "2023-09-20T16:58:19.624Z",
+        "updated_at": "2023-09-20T23:03:54.439Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "45e947ed-f5a5-467a-b9c2-4e15ab96b1da",
+        "name": "Riverside Motel",
+        "address": "555 Maple Court",
+        "city": "Tokyo",
+        "country": "Australia",
+        "created_at": "2023-09-20T08:33:34.157Z",
+        "updated_at": "2023-09-20T16:54:57.400Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "room": [
+      {
+        "id": "56fca3ea-e312-491a-8dd6-bc0ded8eaca0",
+        "room_number": 36798,
+        "room_type": "Standard",
+        "price": 7762,
+        "created_at": "2023-09-21T04:46:38.960Z",
+        "updated_at": "2023-09-20T11:43:09.631Z",
+        "hotel_id": "45e947ed-f5a5-467a-b9c2-4e15ab96b1da"
+      },
+      {
+        "id": "7d24c208-66d2-431c-bed9-4addefba1057",
+        "room_number": 27234,
+        "room_type": "Deluxe",
+        "price": 20071,
+        "created_at": "2023-09-21T00:50:00.883Z",
+        "updated_at": "2023-09-20T23:15:48.291Z",
+        "hotel_id": "fbb8e998-3a17-48fd-8c62-a22e54d62b1e"
+      },
+      {
+        "id": "cdac3a0a-6d8d-445f-8276-8ecb2e1014f8",
+        "room_number": 28042,
+        "room_type": "Suite",
+        "price": 85276,
+        "created_at": "2023-09-20T20:21:19.483Z",
+        "updated_at": "2023-09-20T19:45:40.942Z",
+        "hotel_id": "d045c311-a3c0-4ca3-aa58-a8185f1f5a46"
+      },
+      {
+        "id": "b797156a-a408-400e-a674-f17683929443",
+        "room_number": 88051,
+        "room_type": "Executive",
+        "price": 66581,
+        "created_at": "2023-09-20T06:05:16.383Z",
+        "updated_at": "2023-09-20T06:38:24.412Z",
+        "hotel_id": "e684433a-4dab-4637-8207-cbf1a09f6202"
+      },
+      {
+        "id": "c9e72679-bc9e-48c5-a07d-842e9cd1dc52",
+        "room_number": 2576,
+        "room_type": "Penthouse",
+        "price": 31870,
+        "created_at": "2023-09-20T17:35:48.670Z",
+        "updated_at": "2023-09-20T10:42:24.291Z",
+        "hotel_id": "b9cf08e1-9079-4b74-a2fd-c521f0b837ff"
+      }
+    ],
+    "review": [
+      {
+        "id": "0734f441-a977-4392-a41e-e7d12faf2b8a",
+        "rating": 14897,
+        "comment": "Excellent service and comfortable rooms",
+        "created_at": "2023-09-21T03:00:48.067Z",
+        "updated_at": "2023-09-20T09:40:13.878Z",
+        "hotel_id": "45e947ed-f5a5-467a-b9c2-4e15ab96b1da",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "169f5acd-9e04-4f0f-a041-07c4380de0d1",
+        "rating": 15714,
+        "comment": "Beautiful location with friendly staff",
+        "created_at": "2023-09-20T05:32:43.507Z",
+        "updated_at": "2023-09-20T17:30:06.008Z",
+        "hotel_id": "45e947ed-f5a5-467a-b9c2-4e15ab96b1da",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "410c7a1e-3fcf-4c02-b367-19a0ecc5eed7",
+        "rating": 92887,
+        "comment": "Clean and spacious accommodations",
+        "created_at": "2023-09-20T18:24:21.520Z",
+        "updated_at": "2023-09-21T00:34:05.247Z",
+        "hotel_id": "b9cf08e1-9079-4b74-a2fd-c521f0b837ff",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e2d8603-d259-4d95-b192-2ae689e98f84",
+        "rating": 48601,
+        "comment": "Highly recommended for a relaxing stay",
+        "created_at": "2023-09-20T23:30:57.829Z",
+        "updated_at": "2023-09-20T09:20:42.252Z",
+        "hotel_id": "fbb8e998-3a17-48fd-8c62-a22e54d62b1e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f45d9329-bf10-427d-b72c-84b04c096dec",
+        "rating": 74304,
+        "comment": "Impressive amenities and great value for money",
+        "created_at": "2023-09-20T17:34:45.370Z",
+        "updated_at": "2023-09-20T19:21:16.825Z",
+        "hotel_id": "fbb8e998-3a17-48fd-8c62-a22e54d62b1e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "7ce476e4-31d5-42e7-a09a-07e2bcc78db6",
+        "start_date": "2023-09-20T20:11:12.233Z",
+        "end_date": "2023-09-20T05:36:14.745Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-20T07:25:00.070Z",
+        "updated_at": "2023-09-20T15:27:45.528Z",
+        "room_id": "56fca3ea-e312-491a-8dd6-bc0ded8eaca0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "73ac9edb-acba-44b8-b2c6-733f8c9c5a11",
+        "start_date": "2023-09-20T16:59:33.043Z",
+        "end_date": "2023-09-20T22:26:55.547Z",
+        "status": "Pending",
+        "created_at": "2023-09-20T09:59:55.511Z",
+        "updated_at": "2023-09-20T10:23:57.492Z",
+        "room_id": "7d24c208-66d2-431c-bed9-4addefba1057",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c38040be-f12a-436c-96a3-1fc8b2370822",
+        "start_date": "2023-09-20T17:40:30.337Z",
+        "end_date": "2023-09-20T16:29:11.712Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T14:00:40.578Z",
+        "updated_at": "2023-09-21T02:34:53.686Z",
+        "room_id": "7d24c208-66d2-431c-bed9-4addefba1057",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8cdd6ae-2620-48ae-ade2-4ae9dd84bf94",
+        "start_date": "2023-09-20T19:39:01.033Z",
+        "end_date": "2023-09-20T19:07:49.129Z",
+        "status": "Completed",
+        "created_at": "2023-09-20T10:57:21.880Z",
+        "updated_at": "2023-09-21T01:04:09.517Z",
+        "room_id": "c9e72679-bc9e-48c5-a07d-842e9cd1dc52",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e162fae-019d-4fa9-ae0e-90d3698f91fd",
+        "start_date": "2023-09-20T06:42:28.747Z",
+        "end_date": "2023-09-20T17:13:40.567Z",
+        "status": "On Hold",
+        "created_at": "2023-09-20T07:13:59.839Z",
+        "updated_at": "2023-09-20T23:06:59.283Z",
+        "room_id": "cdac3a0a-6d8d-445f-8276-8ecb2e1014f8",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fa3c7109-f484-4d7c-83b2-66e97bb69a9f",
+        "email": "Angela_Auer-Upton@gmail.com",
+        "firstName": "Ruthe",
+        "lastName": "Wisozk",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/256.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a360dc1c-bb1f-46d5-8481-ad4f16338e4e",
+        "email": "Chloe_Hackett@hotmail.com",
+        "firstName": "Junius",
+        "lastName": "Collins",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70244171",
+        "tenantId": null
+      },
+      {
+        "reference": "1e932200-3550-4246-a0c3-339871fedeea",
+        "email": "Brooke36@gmail.com",
+        "firstName": "Berneice",
+        "lastName": "Schoen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/901.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ca9471e4-628b-48d0-8fb0-3f4764877113",
+        "email": "Aurelia.Hills@hotmail.com",
+        "firstName": "Gerald",
+        "lastName": "Hintz-Kautzer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74581016",
+        "tenantId": null
+      },
+      {
+        "reference": "6087941f-3002-4b39-b69e-b2b49ad8bd90",
+        "email": "Clyde_Sipes@hotmail.com",
+        "firstName": "Clemmie",
+        "lastName": "Parker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1179.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "hotel": [
+      {
+        "id": "85972e5a-ce7c-4db2-a474-ae08e65c8d84",
+        "name": "Grand Hotel",
+        "address": "123 Main Street",
+        "city": "New York",
+        "country": "United States",
+        "created_at": "2023-09-20T09:30:04.060Z",
+        "updated_at": "2023-09-20T14:15:59.026Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "7818703d-ede0-4e7c-a926-3424fffd6833",
+        "name": "Sunset Inn",
+        "address": "456 Elm Street",
+        "city": "Los Angeles",
+        "country": "Canada",
+        "created_at": "2023-09-20T17:30:09.070Z",
+        "updated_at": "2023-09-21T02:22:16.144Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "9dd92f8b-26b1-4308-b946-86002cd00afb",
+        "name": "City View Hotel",
+        "address": "789 Oak Street",
+        "city": "Chicago",
+        "country": "United Kingdom",
+        "created_at": "2023-09-21T01:57:18.276Z",
+        "updated_at": "2023-09-21T03:56:12.490Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "11b96caa-7ae3-482c-ab28-b5169e95c0fa",
+        "name": "Seaside Resort",
+        "address": "321 Pine Street",
+        "city": "Houston",
+        "country": "Australia",
+        "created_at": "2023-09-20T11:02:42.011Z",
+        "updated_at": "2023-09-20T13:30:11.225Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "5c462f15-c2c5-4b47-8495-8233400b85a6",
+        "name": "Mountain Lodge",
+        "address": "654 Maple Street",
+        "city": "Miami",
+        "country": "Germany",
+        "created_at": "2023-09-20T22:45:04.628Z",
+        "updated_at": "2023-09-20T05:11:38.847Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "room": [
+      {
+        "id": "9107c039-81d3-4239-9a6a-666a93dd4b88",
+        "room_number": 8709,
+        "room_type": "Standard",
+        "price": 1737,
+        "created_at": "2023-09-20T15:55:30.150Z",
+        "updated_at": "2023-09-20T20:13:56.732Z",
+        "hotel_id": "9dd92f8b-26b1-4308-b946-86002cd00afb"
+      },
+      {
+        "id": "d00c413f-d891-4932-8383-edcdb8c902de",
+        "room_number": 43291,
+        "room_type": "Deluxe",
+        "price": 78175,
+        "created_at": "2023-09-20T15:08:29.096Z",
+        "updated_at": "2023-09-20T07:49:11.232Z",
+        "hotel_id": "9dd92f8b-26b1-4308-b946-86002cd00afb"
+      },
+      {
+        "id": "fbb2e42d-65a1-41ef-8426-f029c358df9a",
+        "room_number": 8086,
+        "room_type": "Executive",
+        "price": 72328,
+        "created_at": "2023-09-20T15:46:15.255Z",
+        "updated_at": "2023-09-20T17:27:45.742Z",
+        "hotel_id": "5c462f15-c2c5-4b47-8495-8233400b85a6"
+      },
+      {
+        "id": "22eb217e-997c-4eec-a075-1eb2d17a3cab",
+        "room_number": 73985,
+        "room_type": "Suite",
+        "price": 51638,
+        "created_at": "2023-09-20T08:18:03.438Z",
+        "updated_at": "2023-09-20T20:40:02.480Z",
+        "hotel_id": "85972e5a-ce7c-4db2-a474-ae08e65c8d84"
+      },
+      {
+        "id": "68d5e88b-8a3a-49b5-87e4-a0f5bffc0275",
+        "room_number": 17263,
+        "room_type": "Penthouse",
+        "price": 97740,
+        "created_at": "2023-09-20T11:20:10.095Z",
+        "updated_at": "2023-09-20T17:00:00.115Z",
+        "hotel_id": "5c462f15-c2c5-4b47-8495-8233400b85a6"
+      }
+    ],
+    "review": [
+      {
+        "id": "4ec952d6-c89b-4689-9779-743010c4c135",
+        "rating": 17577,
+        "comment": "Great hotel with excellent service",
+        "created_at": "2023-09-21T01:40:23.256Z",
+        "updated_at": "2023-09-20T18:58:25.024Z",
+        "hotel_id": "11b96caa-7ae3-482c-ab28-b5169e95c0fa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "51a307a1-8faa-4c4f-8d65-c24c5ef443cf",
+        "rating": 88063,
+        "comment": "Amazing experience, highly recommended",
+        "created_at": "2023-09-21T04:33:19.149Z",
+        "updated_at": "2023-09-21T04:54:54.535Z",
+        "hotel_id": "5c462f15-c2c5-4b47-8495-8233400b85a6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "12a44105-91a4-4427-9b47-ffb638243222",
+        "rating": 63508,
+        "comment": "Beautiful location and comfortable rooms",
+        "created_at": "2023-09-20T21:36:24.517Z",
+        "updated_at": "2023-09-20T10:30:10.877Z",
+        "hotel_id": "7818703d-ede0-4e7c-a926-3424fffd6833",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "adb32435-c9f7-4782-81a0-a9b2206a882e",
+        "rating": 56991,
+        "comment": "Friendly staff and delicious food",
+        "created_at": "2023-09-20T12:55:09.505Z",
+        "updated_at": "2023-09-20T17:23:41.325Z",
+        "hotel_id": "9dd92f8b-26b1-4308-b946-86002cd00afb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e9b105ba-d5ce-4ef3-a1a8-a5cee10658be",
+        "rating": 59758,
+        "comment": "Clean and spacious accommodations",
+        "created_at": "2023-09-20T12:08:15.228Z",
+        "updated_at": "2023-09-21T03:59:22.501Z",
+        "hotel_id": "11b96caa-7ae3-482c-ab28-b5169e95c0fa",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "7e044b02-c711-4f8e-8084-6972965858aa",
+        "start_date": "2023-09-21T01:04:49.989Z",
+        "end_date": "2023-09-20T14:18:42.124Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-20T17:52:37.131Z",
+        "updated_at": "2023-09-20T19:18:27.643Z",
+        "room_id": "22eb217e-997c-4eec-a075-1eb2d17a3cab",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fad39153-8b0e-4323-8515-9630bd92dd12",
+        "start_date": "2023-09-20T14:43:42.425Z",
+        "end_date": "2023-09-20T19:26:23.725Z",
+        "status": "Pending",
+        "created_at": "2023-09-20T21:15:16.776Z",
+        "updated_at": "2023-09-21T01:44:31.601Z",
+        "room_id": "9107c039-81d3-4239-9a6a-666a93dd4b88",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4698160-dd0d-41dd-afc9-31f67519f596",
+        "start_date": "2023-09-20T05:12:01.573Z",
+        "end_date": "2023-09-20T11:07:11.268Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-21T03:26:10.976Z",
+        "updated_at": "2023-09-20T12:30:59.455Z",
+        "room_id": "22eb217e-997c-4eec-a075-1eb2d17a3cab",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17a041f2-11fa-4625-a33e-6524d5122898",
+        "start_date": "2023-09-21T03:30:59.235Z",
+        "end_date": "2023-09-20T08:35:51.359Z",
+        "status": "Completed",
+        "created_at": "2023-09-20T19:45:15.036Z",
+        "updated_at": "2023-09-20T10:18:57.327Z",
+        "room_id": "fbb2e42d-65a1-41ef-8426-f029c358df9a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9fabdc19-c954-4846-af60-0e3b72188804",
+        "start_date": "2023-09-20T23:58:24.904Z",
+        "end_date": "2023-09-20T18:14:55.692Z",
+        "status": "On Hold",
+        "created_at": "2023-09-20T06:00:28.159Z",
+        "updated_at": "2023-09-20T20:03:41.461Z",
+        "room_id": "22eb217e-997c-4eec-a075-1eb2d17a3cab",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "06084fd8-e0b6-42b5-8df2-29234fdb7ba9",
+        "email": "Malinda59@gmail.com",
+        "firstName": "Mckenzie",
+        "lastName": "Hackett",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/723.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3aaed373-cd62-408c-a41b-3b6128cf8abf",
+        "email": "Dustin_Prosacco@yahoo.com",
+        "firstName": "Addison",
+        "lastName": "Kuhic",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/611.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d5527425-7b3b-472c-bfc8-db9e8836958d",
+        "email": "Dell.Flatley@yahoo.com",
+        "firstName": "Collin",
+        "lastName": "Collins",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74346626",
+        "tenantId": null
+      },
+      {
+        "reference": "dc37b9b3-4475-4c69-a8ea-fa1b7dc6bc95",
+        "email": "Madie18@hotmail.com",
+        "firstName": "Citlalli",
+        "lastName": "Bode",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45540220",
+        "tenantId": null
+      },
+      {
+        "reference": "b18e0217-bb97-443b-ae08-26af459c24fb",
+        "email": "Katarina70@gmail.com",
+        "firstName": "Tyra",
+        "lastName": "Halvorson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84656218",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "hotel": [
+      {
+        "id": "0b5c53db-327d-4ed3-b6ab-95ade755f127",
+        "name": "Grand Hotel",
+        "address": "111 Main Street",
+        "city": "New York",
+        "country": "United States",
+        "created_at": "2023-09-20T07:18:40.331Z",
+        "updated_at": "2023-09-20T22:29:37.042Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "80210702-34d9-4d69-906b-fb4cf4849525",
+        "name": "Royal Palace",
+        "address": "222 Elm Avenue",
+        "city": "Los Angeles",
+        "country": "United Kingdom",
+        "created_at": "2023-09-20T09:07:58.421Z",
+        "updated_at": "2023-09-20T23:47:35.401Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "292fd077-45f9-4c92-b09e-ea79b011a180",
+        "name": "Sunset Resort",
+        "address": "333 Oak Lane",
+        "city": "London",
+        "country": "France",
+        "created_at": "2023-09-20T15:20:06.595Z",
+        "updated_at": "2023-09-20T06:29:13.116Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "18b9c0d0-05d7-4dd3-99b6-1968d940f71b",
+        "name": "Mountain View Lodge",
+        "address": "444 Pine Road",
+        "city": "Paris",
+        "country": "Japan",
+        "created_at": "2023-09-20T10:17:20.860Z",
+        "updated_at": "2023-09-20T09:12:05.030Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "78c28dba-9b6e-4ed2-991d-589a06dcdf9c",
+        "name": "Seaside Inn",
+        "address": "555 Cedar Court",
+        "city": "Tokyo",
+        "country": "Australia",
+        "created_at": "2023-09-20T13:28:41.816Z",
+        "updated_at": "2023-09-20T16:42:52.448Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "room": [
+      {
+        "id": "8e432389-0bf6-4f43-ad8c-1280bfc3894f",
+        "room_number": 34688,
+        "room_type": "Standard",
+        "price": 24046,
+        "created_at": "2023-09-20T07:18:13.839Z",
+        "updated_at": "2023-09-20T09:44:56.614Z",
+        "hotel_id": "80210702-34d9-4d69-906b-fb4cf4849525"
+      },
+      {
+        "id": "f5cd8543-f80a-43fa-9e6b-cdf4d6e3c2e8",
+        "room_number": 62085,
+        "room_type": "Deluxe",
+        "price": 22596,
+        "created_at": "2023-09-20T18:04:41.741Z",
+        "updated_at": "2023-09-20T11:24:36.567Z",
+        "hotel_id": "78c28dba-9b6e-4ed2-991d-589a06dcdf9c"
+      },
+      {
+        "id": "e09e50c6-e06f-4c1a-a775-a857e5496c16",
+        "room_number": 56623,
+        "room_type": "Suite",
+        "price": 43369,
+        "created_at": "2023-09-20T09:42:23.703Z",
+        "updated_at": "2023-09-21T02:08:32.333Z",
+        "hotel_id": "0b5c53db-327d-4ed3-b6ab-95ade755f127"
+      },
+      {
+        "id": "43aee066-14f8-47f3-be1e-61595b8c7d27",
+        "room_number": 98150,
+        "room_type": "Family",
+        "price": 75143,
+        "created_at": "2023-09-21T02:01:36.745Z",
+        "updated_at": "2023-09-21T02:14:00.258Z",
+        "hotel_id": "80210702-34d9-4d69-906b-fb4cf4849525"
+      },
+      {
+        "id": "ec0b7c2f-b33c-410e-8b51-0a076181867a",
+        "room_number": 96468,
+        "room_type": "Penthouse",
+        "price": 6381,
+        "created_at": "2023-09-20T11:31:10.437Z",
+        "updated_at": "2023-09-20T05:52:14.354Z",
+        "hotel_id": "80210702-34d9-4d69-906b-fb4cf4849525"
+      }
+    ],
+    "review": [
+      {
+        "id": "65fe1509-0656-4eb8-a921-516204d44653",
+        "rating": 81332,
+        "comment": "Great hotel with excellent service",
+        "created_at": "2023-09-21T02:46:05.111Z",
+        "updated_at": "2023-09-20T14:31:15.850Z",
+        "hotel_id": "18b9c0d0-05d7-4dd3-99b6-1968d940f71b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c06a865-8559-4f3e-8563-32b1f8104f5f",
+        "rating": 61597,
+        "comment": "Beautiful room with a stunning view",
+        "created_at": "2023-09-20T20:37:39.491Z",
+        "updated_at": "2023-09-20T21:28:41.326Z",
+        "hotel_id": "78c28dba-9b6e-4ed2-991d-589a06dcdf9c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3da72f15-0734-4df9-8d84-220ba73a063d",
+        "rating": 35605,
+        "comment": "Highly recommended for a comfortable stay",
+        "created_at": "2023-09-21T01:40:19.079Z",
+        "updated_at": "2023-09-20T20:07:50.942Z",
+        "hotel_id": "80210702-34d9-4d69-906b-fb4cf4849525",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5fb18004-d1a9-478f-9970-8f552b9742c6",
+        "rating": 70718,
+        "comment": "Friendly staff and clean facilities",
+        "created_at": "2023-09-20T13:25:43.071Z",
+        "updated_at": "2023-09-20T11:08:47.518Z",
+        "hotel_id": "18b9c0d0-05d7-4dd3-99b6-1968d940f71b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c7d169b-16c9-413e-a09a-3492d2491cb1",
+        "rating": 47633,
+        "comment": "Amazing experience, will definitely come back",
+        "created_at": "2023-09-20T16:52:30.961Z",
+        "updated_at": "2023-09-20T11:14:53.335Z",
+        "hotel_id": "18b9c0d0-05d7-4dd3-99b6-1968d940f71b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "baf1e639-5f2d-4767-972e-8b8457442e72",
+        "start_date": "2023-09-20T18:09:27.409Z",
+        "end_date": "2023-09-21T00:58:28.437Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-20T10:38:35.120Z",
+        "updated_at": "2023-09-20T16:36:12.068Z",
+        "room_id": "43aee066-14f8-47f3-be1e-61595b8c7d27",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6704c42f-e2d7-476c-bce5-6304d8aadd25",
+        "start_date": "2023-09-20T19:24:01.172Z",
+        "end_date": "2023-09-20T06:20:14.391Z",
+        "status": "Pending",
+        "created_at": "2023-09-20T09:14:52.931Z",
+        "updated_at": "2023-09-20T07:00:35.097Z",
+        "room_id": "8e432389-0bf6-4f43-ad8c-1280bfc3894f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2705ff1-f663-4f16-80e5-be2f3615a853",
+        "start_date": "2023-09-20T06:07:38.627Z",
+        "end_date": "2023-09-21T03:18:27.301Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T22:54:32.785Z",
+        "updated_at": "2023-09-21T00:05:57.672Z",
+        "room_id": "e09e50c6-e06f-4c1a-a775-a857e5496c16",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c7dc07ea-9fcc-401f-94d2-442f8ed780d7",
+        "start_date": "2023-09-20T15:27:54.543Z",
+        "end_date": "2023-09-20T19:13:58.037Z",
+        "status": "Completed",
+        "created_at": "2023-09-20T17:47:28.270Z",
+        "updated_at": "2023-09-21T02:47:43.535Z",
+        "room_id": "43aee066-14f8-47f3-be1e-61595b8c7d27",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f3e1d43-c097-4ee6-9e07-d5aba3b86ca4",
+        "start_date": "2023-09-20T12:53:51.667Z",
+        "end_date": "2023-09-21T03:13:33.872Z",
+        "status": "On Hold",
+        "created_at": "2023-09-21T04:31:18.952Z",
+        "updated_at": "2023-09-21T00:33:25.192Z",
+        "room_id": "43aee066-14f8-47f3-be1e-61595b8c7d27",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "13b556ab-3b04-4086-8565-71d417023d4d",
+        "email": "Zetta_Heaney@yahoo.com",
+        "firstName": "Trevor",
+        "lastName": "Langosh",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40818147",
+        "tenantId": null
+      },
+      {
+        "reference": "3eb28e28-6f46-4039-a639-97e12b8dbd08",
+        "email": "Molly.Wintheiser@gmail.com",
+        "firstName": "Anabelle",
+        "lastName": "Adams",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/888.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "84fc9bd4-cdd3-4943-b2bd-02284962242f",
+        "email": "Josianne_Wolff-Carter@gmail.com",
+        "firstName": "Ernesto",
+        "lastName": "Lesch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26080125",
+        "tenantId": null
+      },
+      {
+        "reference": "727109f9-4f5f-465a-98f2-a7e27dfee862",
+        "email": "Josie51@yahoo.com",
+        "firstName": "Bettie",
+        "lastName": "Johnson-Pagac",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66583767",
+        "tenantId": null
+      },
+      {
+        "reference": "cc457663-16e7-4fb3-95be-bf2f470f4cc9",
+        "email": "Isom6@hotmail.com",
+        "firstName": "Otto",
+        "lastName": "Price",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/396.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "hotel": [
+      {
+        "id": "34d9ed74-8993-4607-8377-f493f93fb312",
+        "name": "Luxury Suites",
+        "address": "789 Main Street",
+        "city": "New York",
+        "country": "United States",
+        "created_at": "2023-09-20T13:08:02.780Z",
+        "updated_at": "2023-09-20T07:48:01.915Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "9977e446-942c-4d2e-baf7-3d9a4bf473cd",
+        "name": "Cozy Cottage",
+        "address": "456 Elm Avenue",
+        "city": "Los Angeles",
+        "country": "United Kingdom",
+        "created_at": "2023-09-20T15:28:42.593Z",
+        "updated_at": "2023-09-20T07:53:33.434Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "4eb3934d-8b21-4d61-9edd-ba4d9ae93fdd",
+        "name": "Urban Retreat",
+        "address": "123 Oak Drive",
+        "city": "London",
+        "country": "France",
+        "created_at": "2023-09-20T17:55:55.380Z",
+        "updated_at": "2023-09-20T12:49:17.837Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "c5876cad-b739-4cb4-8ad5-b1e20fa2ca49",
+        "name": "Seaside Villa",
+        "address": "321 Pine Lane",
+        "city": "Paris",
+        "country": "Japan",
+        "created_at": "2023-09-20T16:05:17.818Z",
+        "updated_at": "2023-09-20T05:36:33.204Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "24c813ae-7218-4f2d-9185-6b8fc2344daf",
+        "name": "Mountain Lodge",
+        "address": "654 Maple Court",
+        "city": "Tokyo",
+        "country": "Australia",
+        "created_at": "2023-09-21T03:44:27.335Z",
+        "updated_at": "2023-09-21T04:12:06.975Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "room": [
+      {
+        "id": "3afc008b-2bba-4d4f-848a-f1a524ef55b6",
+        "room_number": 82475,
+        "room_type": "Deluxe King",
+        "price": 4079,
+        "created_at": "2023-09-20T09:20:23.654Z",
+        "updated_at": "2023-09-20T15:58:05.395Z",
+        "hotel_id": "24c813ae-7218-4f2d-9185-6b8fc2344daf"
+      },
+      {
+        "id": "b8e28bbd-c1bb-4c20-90a0-47d5703c0366",
+        "room_number": 52558,
+        "room_type": "Standard Queen",
+        "price": 82025,
+        "created_at": "2023-09-20T11:27:54.276Z",
+        "updated_at": "2023-09-21T05:08:25.183Z",
+        "hotel_id": "4eb3934d-8b21-4d61-9edd-ba4d9ae93fdd"
+      },
+      {
+        "id": "21069e6b-e094-4f35-bfc2-9f3e72452d8e",
+        "room_number": 17759,
+        "room_type": "Executive Suite",
+        "price": 76111,
+        "created_at": "2023-09-21T00:50:17.731Z",
+        "updated_at": "2023-09-20T11:09:35.393Z",
+        "hotel_id": "9977e446-942c-4d2e-baf7-3d9a4bf473cd"
+      },
+      {
+        "id": "78290b0e-5b96-445c-988d-bd985cdae1a2",
+        "room_number": 38395,
+        "room_type": "Family Room",
+        "price": 52335,
+        "created_at": "2023-09-20T17:42:35.671Z",
+        "updated_at": "2023-09-21T01:40:17.909Z",
+        "hotel_id": "c5876cad-b739-4cb4-8ad5-b1e20fa2ca49"
+      },
+      {
+        "id": "809160a8-7785-4bb3-a82e-516a1331972d",
+        "room_number": 92792,
+        "room_type": "Ocean View",
+        "price": 87777,
+        "created_at": "2023-09-20T09:16:57.868Z",
+        "updated_at": "2023-09-20T17:38:11.858Z",
+        "hotel_id": "24c813ae-7218-4f2d-9185-6b8fc2344daf"
+      }
+    ],
+    "review": [
+      {
+        "id": "f3e8397a-e868-405a-8ab0-a1fe88d568e5",
+        "rating": 82655,
+        "comment": "Great experience, highly recommended!",
+        "created_at": "2023-09-20T13:42:21.700Z",
+        "updated_at": "2023-09-20T07:16:56.330Z",
+        "hotel_id": "4eb3934d-8b21-4d61-9edd-ba4d9ae93fdd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1aae6400-0ef6-4a30-a94e-2e7036312142",
+        "rating": 58739,
+        "comment": "Lovely stay with friendly staff",
+        "created_at": "2023-09-20T06:47:47.385Z",
+        "updated_at": "2023-09-21T02:52:32.127Z",
+        "hotel_id": "34d9ed74-8993-4607-8377-f493f93fb312",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "135fe702-5ad1-428b-adc3-83ef7214bb6b",
+        "rating": 5697,
+        "comment": "Clean and comfortable accommodations",
+        "created_at": "2023-09-20T23:37:06.863Z",
+        "updated_at": "2023-09-20T16:54:25.693Z",
+        "hotel_id": "24c813ae-7218-4f2d-9185-6b8fc2344daf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b240208-bbdd-4a0d-907b-8b93a85116c1",
+        "rating": 86569,
+        "comment": "Beautiful location with stunning views",
+        "created_at": "2023-09-20T20:31:06.550Z",
+        "updated_at": "2023-09-21T00:12:59.684Z",
+        "hotel_id": "24c813ae-7218-4f2d-9185-6b8fc2344daf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d457fc5c-9eb1-4d54-9ebd-163299d89359",
+        "rating": 45679,
+        "comment": "Excellent value for money",
+        "created_at": "2023-09-20T18:48:14.226Z",
+        "updated_at": "2023-09-20T20:37:10.174Z",
+        "hotel_id": "4eb3934d-8b21-4d61-9edd-ba4d9ae93fdd",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "94c23a30-3a5c-4d99-84e5-33108bae81e5",
+        "start_date": "2023-09-20T08:53:27.334Z",
+        "end_date": "2023-09-20T09:24:18.480Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-20T17:18:35.240Z",
+        "updated_at": "2023-09-20T14:18:46.735Z",
+        "room_id": "809160a8-7785-4bb3-a82e-516a1331972d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fdf9013e-b661-4298-9876-6edc267b3b14",
+        "start_date": "2023-09-21T03:10:05.267Z",
+        "end_date": "2023-09-20T20:49:22.561Z",
+        "status": "Pending",
+        "created_at": "2023-09-21T02:06:39.608Z",
+        "updated_at": "2023-09-20T21:05:56.906Z",
+        "room_id": "3afc008b-2bba-4d4f-848a-f1a524ef55b6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "613ede77-44a1-4685-9df1-4820cf4cc540",
+        "start_date": "2023-09-20T16:42:52.978Z",
+        "end_date": "2023-09-20T09:27:44.231Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T14:20:15.135Z",
+        "updated_at": "2023-09-20T16:41:35.738Z",
+        "room_id": "b8e28bbd-c1bb-4c20-90a0-47d5703c0366",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "326056a7-c0d8-4d39-a5f8-a3f45fadc0a5",
+        "start_date": "2023-09-20T12:30:56.353Z",
+        "end_date": "2023-09-20T06:25:27.748Z",
+        "status": "Checked-in",
+        "created_at": "2023-09-20T13:48:06.666Z",
+        "updated_at": "2023-09-20T21:40:21.987Z",
+        "room_id": "809160a8-7785-4bb3-a82e-516a1331972d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "12231a58-19c9-42d4-8ab2-dfece178c847",
+        "start_date": "2023-09-20T21:03:40.814Z",
+        "end_date": "2023-09-20T15:56:41.600Z",
+        "status": "Checked-out",
+        "created_at": "2023-09-20T12:52:44.590Z",
+        "updated_at": "2023-09-21T00:03:26.567Z",
+        "room_id": "b8e28bbd-c1bb-4c20-90a0-47d5703c0366",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e3af3b66-123c-4407-a454-add9478d228a",
+        "email": "Devin75@gmail.com",
+        "firstName": "Mya",
+        "lastName": "Denesik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61637976",
+        "tenantId": null
+      },
+      {
+        "reference": "50996495-217d-4d29-b41e-a37c40864a3e",
+        "email": "Domenico32@gmail.com",
+        "firstName": "Tess",
+        "lastName": "Weissnat",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89580293",
+        "tenantId": null
+      },
+      {
+        "reference": "4659fdae-662f-4498-b2f5-b985b390bfc4",
+        "email": "Breanne_Kub9@hotmail.com",
+        "firstName": "Ryley",
+        "lastName": "Raynor",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/977.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "02a9328c-8551-4fbd-9538-b1311eeacd55",
+        "email": "Zachariah.Jenkins4@hotmail.com",
+        "firstName": "Pasquale",
+        "lastName": "Konopelski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52697812",
+        "tenantId": null
+      },
+      {
+        "reference": "8265038a-41ed-47f6-89f1-2ad8a113be84",
+        "email": "Nia.Wolff@hotmail.com",
+        "firstName": "Sherwood",
+        "lastName": "Mills",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48292950",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "hotel": [
+      {
+        "id": "84259c99-ed90-4649-866e-4a06a138d2a5",
+        "name": "Grand Hotel",
+        "address": "321 Main Street",
+        "city": "San Francisco",
+        "country": "United States",
+        "created_at": "2023-09-21T04:05:28.163Z",
+        "updated_at": "2023-09-20T17:40:17.650Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "8f98c375-18a0-41be-a04b-cfdeda98dbbe",
+        "name": "Royal Palace",
+        "address": "654 Elm Avenue",
+        "city": "Seattle",
+        "country": "Canada",
+        "created_at": "2023-09-20T22:07:21.899Z",
+        "updated_at": "2023-09-21T01:06:54.540Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "53a21ca2-7316-46e0-9aca-3ef0953e7af2",
+        "name": "Mountain View Lodge",
+        "address": "987 Oak Lane",
+        "city": "Denver",
+        "country": "United Kingdom",
+        "created_at": "2023-09-20T21:40:45.284Z",
+        "updated_at": "2023-09-20T11:28:26.010Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "befa7a07-1e61-4218-8e94-e3747b2f3bcc",
+        "name": "Seaside Resort",
+        "address": "210 Maple Drive",
+        "city": "Boston",
+        "country": "Australia",
+        "created_at": "2023-09-20T15:28:28.803Z",
+        "updated_at": "2023-09-20T11:51:04.335Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "ee6bd3f6-c9bd-4e36-a01b-c4be51a7610e",
+        "name": "Urban Oasis",
+        "address": "303 Pine Road",
+        "city": "Las Vegas",
+        "country": "France",
+        "created_at": "2023-09-21T03:55:55.970Z",
+        "updated_at": "2023-09-20T15:53:26.821Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "room": [
+      {
+        "id": "7c50f8cd-c2fc-45f2-adde-03a730a9af78",
+        "room_number": 85458,
+        "room_type": "Standard",
+        "price": 6086,
+        "created_at": "2023-09-20T23:29:46.700Z",
+        "updated_at": "2023-09-20T18:58:41.915Z",
+        "hotel_id": "84259c99-ed90-4649-866e-4a06a138d2a5"
+      },
+      {
+        "id": "f2494678-77ec-4ea1-8e64-8f2f1e13cbcc",
+        "room_number": 74637,
+        "room_type": "Deluxe",
+        "price": 58091,
+        "created_at": "2023-09-21T01:34:50.845Z",
+        "updated_at": "2023-09-20T20:29:49.812Z",
+        "hotel_id": "8f98c375-18a0-41be-a04b-cfdeda98dbbe"
+      },
+      {
+        "id": "76e0c115-2e6a-4f97-b72a-1cc99f8784e6",
+        "room_number": 30477,
+        "room_type": "Suite",
+        "price": 8342,
+        "created_at": "2023-09-20T10:20:40.722Z",
+        "updated_at": "2023-09-21T00:38:11.788Z",
+        "hotel_id": "befa7a07-1e61-4218-8e94-e3747b2f3bcc"
+      },
+      {
+        "id": "fa8a1c52-8335-4ad7-b0e9-7a179e879bc5",
+        "room_number": 88332,
+        "room_type": "Family",
+        "price": 80031,
+        "created_at": "2023-09-21T03:34:38.567Z",
+        "updated_at": "2023-09-20T08:40:09.239Z",
+        "hotel_id": "84259c99-ed90-4649-866e-4a06a138d2a5"
+      },
+      {
+        "id": "aa753fad-2adb-4572-a467-70a06a824b9a",
+        "room_number": 74533,
+        "room_type": "Executive",
+        "price": 48183,
+        "created_at": "2023-09-21T04:44:24.876Z",
+        "updated_at": "2023-09-20T09:27:54.986Z",
+        "hotel_id": "befa7a07-1e61-4218-8e94-e3747b2f3bcc"
+      }
+    ],
+    "review": [
+      {
+        "id": "5376c204-55d8-4b0d-a731-872bea5826fd",
+        "rating": 77205,
+        "comment": "Great hotel with excellent service",
+        "created_at": "2023-09-20T11:10:11.179Z",
+        "updated_at": "2023-09-20T09:04:01.102Z",
+        "hotel_id": "8f98c375-18a0-41be-a04b-cfdeda98dbbe",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f5393f9-4259-46ab-977b-ce72b7d93955",
+        "rating": 31242,
+        "comment": "Beautiful location and comfortable rooms",
+        "created_at": "2023-09-21T03:19:17.058Z",
+        "updated_at": "2023-09-20T16:47:33.968Z",
+        "hotel_id": "84259c99-ed90-4649-866e-4a06a138d2a5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b0c31440-ea80-4180-9dfb-1fe591d5e252",
+        "rating": 35785,
+        "comment": "Friendly staff and delicious food",
+        "created_at": "2023-09-20T08:33:22.792Z",
+        "updated_at": "2023-09-20T23:44:11.497Z",
+        "hotel_id": "befa7a07-1e61-4218-8e94-e3747b2f3bcc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2a99052b-8a68-47c3-beab-c58b991090a7",
+        "rating": 99692,
+        "comment": "Highly recommended for a relaxing stay",
+        "created_at": "2023-09-20T21:56:16.587Z",
+        "updated_at": "2023-09-20T18:25:36.321Z",
+        "hotel_id": "53a21ca2-7316-46e0-9aca-3ef0953e7af2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d1989650-edcb-4795-aa07-02b8a2958a6c",
+        "rating": 96452,
+        "comment": "Impressive amenities and stunning views",
+        "created_at": "2023-09-20T19:34:07.004Z",
+        "updated_at": "2023-09-20T18:34:25.622Z",
+        "hotel_id": "8f98c375-18a0-41be-a04b-cfdeda98dbbe",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "a39ff41e-6044-4558-9b1e-a6ead3f1bd6b",
+        "start_date": "2023-09-20T08:32:38.170Z",
+        "end_date": "2023-09-20T14:27:53.220Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-21T00:37:18.721Z",
+        "updated_at": "2023-09-20T08:06:45.286Z",
+        "room_id": "76e0c115-2e6a-4f97-b72a-1cc99f8784e6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3490c3e-464e-4fed-99be-b2140ca31d43",
+        "start_date": "2023-09-20T18:27:58.438Z",
+        "end_date": "2023-09-21T03:08:31.768Z",
+        "status": "Pending",
+        "created_at": "2023-09-20T22:39:12.089Z",
+        "updated_at": "2023-09-21T04:38:24.899Z",
+        "room_id": "aa753fad-2adb-4572-a467-70a06a824b9a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ba48daa-afc8-4577-9e1a-6ce9f8e08266",
+        "start_date": "2023-09-20T21:29:17.984Z",
+        "end_date": "2023-09-20T19:51:37.680Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T13:55:25.834Z",
+        "updated_at": "2023-09-20T17:25:53.264Z",
+        "room_id": "7c50f8cd-c2fc-45f2-adde-03a730a9af78",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9a785cb-11c7-40de-83e4-f633c0e6e3ca",
+        "start_date": "2023-09-20T17:28:58.524Z",
+        "end_date": "2023-09-20T15:49:57.746Z",
+        "status": "Completed",
+        "created_at": "2023-09-21T02:53:39.990Z",
+        "updated_at": "2023-09-20T06:33:11.493Z",
+        "room_id": "aa753fad-2adb-4572-a467-70a06a824b9a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bdba520e-21f4-4423-afdc-7fd161d557aa",
+        "start_date": "2023-09-21T04:55:30.579Z",
+        "end_date": "2023-09-20T20:05:21.037Z",
+        "status": "On Hold",
+        "created_at": "2023-09-20T21:05:56.720Z",
+        "updated_at": "2023-09-21T00:41:56.985Z",
+        "room_id": "fa8a1c52-8335-4ad7-b0e9-7a179e879bc5",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d2c9577e-87a7-41a1-b76c-85c702a8e8d8",
+        "email": "Roma_Leannon42@hotmail.com",
+        "firstName": "Mauricio",
+        "lastName": "Osinski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/122.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f625b562-1d7e-46a5-b911-18d0a490be7b",
+        "email": "Priscilla.Cartwright@gmail.com",
+        "firstName": "Damian",
+        "lastName": "Pollich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71215824",
+        "tenantId": null
+      },
+      {
+        "reference": "3bdf8558-304a-4b5a-8f05-8e6b67cc7fd4",
+        "email": "Kiley.Spencer@hotmail.com",
+        "firstName": "Karina",
+        "lastName": "Wolff",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53230613",
+        "tenantId": null
+      },
+      {
+        "reference": "456e1934-f4cd-4d28-8f55-9ea34b74baf4",
+        "email": "Gerardo21@hotmail.com",
+        "firstName": "Ruby",
+        "lastName": "Heidenreich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22858278",
+        "tenantId": null
+      },
+      {
+        "reference": "d26a121e-fd86-4508-a88c-bf1bb2c555fc",
+        "email": "Candace.Franey@hotmail.com",
+        "firstName": "Joey",
+        "lastName": "Stroman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14351350",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "hotel": [
+      {
+        "id": "bdcd4b42-cb47-414b-8474-387e447e5f78",
+        "name": "Grand Hotel",
+        "address": "111 Main Street",
+        "city": "New York",
+        "country": "United States",
+        "created_at": "2023-09-20T16:48:20.564Z",
+        "updated_at": "2023-09-20T17:50:31.623Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "1e50c1f6-8311-406e-8bb8-79407d9610f0",
+        "name": "Sunset Resort",
+        "address": "222 Elm Avenue",
+        "city": "Los Angeles",
+        "country": "United Kingdom",
+        "created_at": "2023-09-20T10:08:06.197Z",
+        "updated_at": "2023-09-20T06:12:14.607Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "547953b2-d7d5-47c9-956f-d59a924f1e16",
+        "name": "Mountain View Lodge",
+        "address": "333 Oak Drive",
+        "city": "London",
+        "country": "France",
+        "created_at": "2023-09-21T00:11:21.994Z",
+        "updated_at": "2023-09-20T10:21:17.262Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "2c24c982-be99-4bd1-b87b-cef2c48bfd06",
+        "name": "Seaside Inn",
+        "address": "444 Maple Lane",
+        "city": "Paris",
+        "country": "Germany",
+        "created_at": "2023-09-21T01:12:52.720Z",
+        "updated_at": "2023-09-20T14:06:33.127Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "97132694-0a72-4363-8375-4c1d8c9a8739",
+        "name": "Riverside Retreat",
+        "address": "555 Pine Road",
+        "city": "Tokyo",
+        "country": "Japan",
+        "created_at": "2023-09-20T10:41:12.465Z",
+        "updated_at": "2023-09-20T22:17:27.021Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "room": [
+      {
+        "id": "641cbd73-8ac4-427e-8a0f-c8cbc63eeef2",
+        "room_number": 27327,
+        "room_type": "Single",
+        "price": 16823,
+        "created_at": "2023-09-20T13:55:27.038Z",
+        "updated_at": "2023-09-20T11:17:03.718Z",
+        "hotel_id": "97132694-0a72-4363-8375-4c1d8c9a8739"
+      },
+      {
+        "id": "389e268f-fe22-4776-ad7c-1aca9185964b",
+        "room_number": 37278,
+        "room_type": "Double",
+        "price": 23875,
+        "created_at": "2023-09-20T15:58:47.867Z",
+        "updated_at": "2023-09-20T10:43:42.830Z",
+        "hotel_id": "2c24c982-be99-4bd1-b87b-cef2c48bfd06"
+      },
+      {
+        "id": "663b94a7-7fc7-43d7-bc93-0c9ecc4605c1",
+        "room_number": 34478,
+        "room_type": "Twin",
+        "price": 94238,
+        "created_at": "2023-09-20T23:16:39.611Z",
+        "updated_at": "2023-09-20T21:39:57.866Z",
+        "hotel_id": "97132694-0a72-4363-8375-4c1d8c9a8739"
+      },
+      {
+        "id": "3c073060-e163-49d8-bf90-494313e7a2b0",
+        "room_number": 72510,
+        "room_type": "Suite",
+        "price": 28245,
+        "created_at": "2023-09-20T12:23:48.791Z",
+        "updated_at": "2023-09-20T05:12:17.776Z",
+        "hotel_id": "547953b2-d7d5-47c9-956f-d59a924f1e16"
+      },
+      {
+        "id": "61cb973d-6d0d-4fde-a031-4dc69ec281da",
+        "room_number": 5520,
+        "room_type": "Deluxe",
+        "price": 45485,
+        "created_at": "2023-09-20T21:49:14.008Z",
+        "updated_at": "2023-09-21T01:54:23.503Z",
+        "hotel_id": "547953b2-d7d5-47c9-956f-d59a924f1e16"
+      }
+    ],
+    "review": [
+      {
+        "id": "ee1e4b2a-9a7f-4640-88fc-1a4114d31c7c",
+        "rating": 32769,
+        "comment": "Great experience, highly recommended!",
+        "created_at": "2023-09-20T18:31:56.107Z",
+        "updated_at": "2023-09-20T11:20:35.363Z",
+        "hotel_id": "1e50c1f6-8311-406e-8bb8-79407d9610f0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3cd7abd1-401d-468d-a6bd-bd272a08d229",
+        "rating": 69587,
+        "comment": "Lovely stay with excellent service",
+        "created_at": "2023-09-20T23:36:38.774Z",
+        "updated_at": "2023-09-20T19:59:52.091Z",
+        "hotel_id": "97132694-0a72-4363-8375-4c1d8c9a8739",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c8de5a0-2428-4076-8448-3d20318da3b4",
+        "rating": 74143,
+        "comment": "Disappointing stay, needs improvement",
+        "created_at": "2023-09-20T17:05:32.125Z",
+        "updated_at": "2023-09-20T14:35:55.183Z",
+        "hotel_id": "2c24c982-be99-4bd1-b87b-cef2c48bfd06",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cec72576-ac78-4297-8672-0ca7288c25bf",
+        "rating": 33791,
+        "comment": "Amazing hotel with beautiful views",
+        "created_at": "2023-09-20T13:07:24.951Z",
+        "updated_at": "2023-09-21T02:25:21.921Z",
+        "hotel_id": "97132694-0a72-4363-8375-4c1d8c9a8739",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf7989e4-e561-4218-995f-6fbaa8e4b71f",
+        "rating": 18623,
+        "comment": "Average experience, nothing special",
+        "created_at": "2023-09-20T18:44:59.481Z",
+        "updated_at": "2023-09-21T04:50:59.639Z",
+        "hotel_id": "97132694-0a72-4363-8375-4c1d8c9a8739",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "e9e341cb-1a71-419d-9f64-2f2e3be4bf6b",
+        "start_date": "2023-09-20T17:10:07.752Z",
+        "end_date": "2023-09-20T08:40:59.993Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-20T22:00:07.988Z",
+        "updated_at": "2023-09-20T11:47:34.393Z",
+        "room_id": "663b94a7-7fc7-43d7-bc93-0c9ecc4605c1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f5880737-a0c6-426e-adc7-f8a24aecb857",
+        "start_date": "2023-09-20T06:02:55.513Z",
+        "end_date": "2023-09-20T10:11:11.502Z",
+        "status": "Pending",
+        "created_at": "2023-09-20T17:41:10.142Z",
+        "updated_at": "2023-09-20T17:52:37.766Z",
+        "room_id": "61cb973d-6d0d-4fde-a031-4dc69ec281da",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b726fda0-ca8e-41fb-a850-8c190cd72f55",
+        "start_date": "2023-09-20T20:41:51.162Z",
+        "end_date": "2023-09-20T05:17:02.685Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T23:23:51.740Z",
+        "updated_at": "2023-09-20T09:20:32.363Z",
+        "room_id": "61cb973d-6d0d-4fde-a031-4dc69ec281da",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "60f307df-179c-4fa6-9bd4-13fa5fcd4124",
+        "start_date": "2023-09-20T13:48:42.821Z",
+        "end_date": "2023-09-20T12:34:44.145Z",
+        "status": "Completed",
+        "created_at": "2023-09-20T16:09:21.274Z",
+        "updated_at": "2023-09-20T17:43:09.636Z",
+        "room_id": "389e268f-fe22-4776-ad7c-1aca9185964b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3fc08ca8-076c-41f0-a328-e147ea0aa6ee",
+        "start_date": "2023-09-20T14:54:13.732Z",
+        "end_date": "2023-09-20T16:36:00.080Z",
+        "status": "No Show",
+        "created_at": "2023-09-20T08:43:11.949Z",
+        "updated_at": "2023-09-21T02:32:33.811Z",
+        "room_id": "389e268f-fe22-4776-ad7c-1aca9185964b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c0727b47-aa2c-4460-b866-5476dd9705b6",
+        "email": "Bobby23@yahoo.com",
+        "firstName": "Lavern",
+        "lastName": "Kemmer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13637024",
+        "tenantId": null
+      },
+      {
+        "reference": "5c1c49ef-6227-4131-8b79-684f935dd903",
+        "email": "Albin13@yahoo.com",
+        "firstName": "Arne",
+        "lastName": "Macejkovic",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/382.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "be5ddaab-43d8-479f-a143-be454f6e1ba9",
+        "email": "Asa.Sipes@yahoo.com",
+        "firstName": "Adelia",
+        "lastName": "Koepp",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69585324",
+        "tenantId": null
+      },
+      {
+        "reference": "6824eaff-0b6a-4f36-b847-2c2103a41409",
+        "email": "Salvatore_Reinger@gmail.com",
+        "firstName": "Vance",
+        "lastName": "Rowe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/529.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b42dd139-68d3-49af-9a82-d8fb7c693838",
+        "email": "Ayden.Bayer@gmail.com",
+        "firstName": "River",
+        "lastName": "Hamill",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81266502",
+        "tenantId": null
+      }
+    ]
+  }
+]
